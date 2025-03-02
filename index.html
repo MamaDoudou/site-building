@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Edu Notebook - Building</title>
+  <meta name="description" content="Edu Notebook is a comprehensive educational management application designed to streamline school administration, student management, and communication between parents, teachers, and school staff. The application provides features for managing schools, classes, students, payments, and comments, with role-based access control for different user types">
+  <meta name="author" content="Ibrahima THIAM">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .animate-spin-slow {
+      animation: spin 3s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center h-screen">
+  <div class="text-center">
+    <!-- Logo or Branding -->
+    <div class="mb-8">
+      <img src="images/logo-icon.jpeg" alt="Edu Notebook Logo" class="w-24 h-24 mx-auto animate-spin-slow">
+    </div>
+
+    <!-- Heading -->
+    <h1 class="text-4xl font-bold mb-4">
+      Edu Notebook is Building...
+    </h1>
+
+    <!-- Subheading -->
+    <p class="text-lg text-gray-400 mb-8">
+      We're preparing something amazing for you. Please hold on!
+    </p>
+
+    <!-- Progress Bar -->
+    <div class="w-64 h-2 bg-gray-700 rounded-full mx-auto overflow-hidden">
+      <div class="h-full bg-blue-500 rounded-full animate-pulse" style="width: 50%;"></div>
+    </div>
+
+    <!-- Loading Message -->
+    <p class="mt-8 text-sm text-gray-500">
+      This may take a few moments. Thank you for your patience!
+    </p>
+
+    <!-- Contact Information -->
+    <p class="mt-4 text-sm text-gray-400">
+      For more information, contact us at:
+      <a href="mailto:contact@edu-notebook.com" class="text-blue-500 hover:underline">
+        contact@edu-notebook.com
+      </a>
+    </p>
+  </div>
+</body>
+</html>
